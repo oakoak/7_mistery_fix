@@ -1,27 +1,10 @@
-# Решатель квадратных уравнений
+# 7_mistery_fix
+This script using for solving simple quadratic equation
 
-Решение квадратных уравнений
+For running please use python3.5
 
-# Как использовать
+# Usage:
+python quadratic_equation.py
+###Tesing
 
-get_roots(a, b, c) - возращает корни уравнения соответсвующего коэфициэнтам
-
-уравнение вида ax^2+bx+c=0
-
-необходимо импортировать quadratic_equation
-
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
-
-```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
-```
-
-Запуск на Windows происходит аналогично.
-
-# Цели проекта
-
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+python test.py
