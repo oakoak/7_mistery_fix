@@ -2,12 +2,12 @@
 
 This script using for solving simple quadratic equation
 
-##Objectives
+## Objectives
 Solve the quadratic equation for which a != 0
 
 For running please use python3.5
 
-##Using the function:
+## Using the function:
 ```bash
 import quadratic_equation
 quadratic_equation.get_roots(1,2,1)
