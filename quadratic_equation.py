@@ -14,4 +14,7 @@ def get_roots(a, b, c):
 
 
 if __name__ == "__main__":
-    print(get_roots(1, 2, 0))
+    a = float(input("a: "))
+    b = float(input("b: "))
+    c = float(input("c: "))
+    print(get_roots(a, b, c))
