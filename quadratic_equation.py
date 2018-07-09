@@ -17,7 +17,7 @@ def get_roots(a: float, b: float, c: float):
         else:
             return root1, root2
     except TypeError:
-        exit("Incorrect type data")
+        return None
 
 
 if __name__ == "__main__":

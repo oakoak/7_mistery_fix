@@ -9,6 +9,7 @@
 + If *discriminant > 0* function returns two solutions
 + If *discriminant == 0* function returns one solution and None
 + If *discriminant < 0* function returns two None
++ If an incorrect data was submitted to the **get_ruts**, it returns None
 
 ### Import function
 ```python
