@@ -3,21 +3,22 @@ from math import sqrt
 
 def get_roots(a: float, b: float, c: float):
     try:
-        if a == 0 and b == 0:
-            return None, None
-        if a == 0:
-            return c / b
         discriminant = b ** 2 - 4 * a * c
-        if discriminant < 0:
-            return None, None
-        root1 = (-b - sqrt(discriminant)) / (2 * a)
-        root2 = (-b + sqrt(discriminant)) / (2 * a)
-        if discriminant == 0:
-            return root1, None
-        else:
-            return root1, root2
     except TypeError:
         return None
+    if a == 0 and b == 0:           #the solution of the degenerate equation
+        return None, None
+    if a == 0:
+        return c / b
+
+    if discriminant < 0:
+        return None, None
+    root1 = (-b - sqrt(discriminant)) / (2 * a)
+    root2 = (-b + sqrt(discriminant)) / (2 * a)
+    if discriminant == 0:
+        return root1, None
+    else:
+        return root1, root2
 
 
 if __name__ == "__main__":
