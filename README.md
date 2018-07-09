@@ -1,25 +1,37 @@
-# Quadratic equations
+# Module for solution quadratic equations
+---
+## Module **quadratic_equation.py** calculates the roots of the quadratic equation
+---
 
-This script using for solving simple quadratic equation
+### How to use
++ When importing the **quadratic_equation.py** module, use the function **get_ruts (a, b, c)**
++ If the equation is degenerate, function returns one equation and None or None and None
++ If *discriminant > 0* function returns two solutions
++ If *discriminant == 0* function returns one solution and None
++ If *discriminant < 0* function returns two None
 
-## Objectives
-Solve the quadratic equation for which a != 0
-
-For running please use python3.5
-
-## Using the function:
-```bash
-import quadratic_equation
-quadratic_equation.get_roots(1,2,1)
+### Import function
+```python
+from quadratic_equation import get_roots
 ```
 
-### Usage:
-```bash
-$ python quadratic_equation.py
-(-1.0, None)
+### Example of use
+```python
+get_ruts(1, 2, 1)
 ```
 
-### Tesing
+### It is also possible to solve the quadratic equation so:
 ```bash
-$ python tests.py
+python quadratic_equation.py
 ```
+
+### How to start test
++ For running please use python3.5
++ Launch on Linux
+```bash
+python test.py
+```
++ Launch on Windows similarly
+
+### Objectives of the project
+The code was created for educational purposes. In the framework of the training course on web development - DEVMAN.org
