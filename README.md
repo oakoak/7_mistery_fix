@@ -11,13 +11,9 @@
 + If *discriminant < 0* function returns two None
 + If an incorrect data was submitted to the **get_ruts**, it returns None
 
-### Import function
-```python
-from quadratic_equation import get_roots
-```
-
 ### Example of use
 ```python
+from quadratic_equation import get_roots
 get_ruts(1, 2, 1)
 ```
 
@@ -35,4 +31,4 @@ python test.py
 + Launch on Windows similarly
 
 ### Objectives of the project
-The code was created for educational purposes. In the framework of the training course on web development - DEVMAN.org
+The code was created for educational purposes. In the framework of the training course on web development - [DEVMAN.org](https://devman.org)
