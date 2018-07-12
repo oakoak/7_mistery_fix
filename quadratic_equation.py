@@ -1,16 +1,19 @@
 from math import sqrt
 
 
+def linear_equation(a, b):           # ax + b = 0
+    if a == 0:
+        return None
+    return -b/a
+
+
 def get_roots(a: float, b: float, c: float):
     try:
         discriminant = b ** 2 - 4 * a * c
     except TypeError:
         return None
-    if a == 0 and b == 0:           #the solution of the degenerate equation
-        return None, None
-    if a == 0:
-        return c / b
-
+    if a == 0:           #the solution of the degenerate equation
+        return linear_equation(b, c), None
     if discriminant < 0:
         return None, None
     root1 = (-b - sqrt(discriminant)) / (2 * a)
