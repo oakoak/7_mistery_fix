@@ -14,7 +14,7 @@
 ### Example of use
 ```python
 from quadratic_equation import get_roots
-get_ruts(1, 2, 1)
+get_roots(1, 2, 1)
 ```
 
 ### It is also possible to solve the quadratic equation so:
